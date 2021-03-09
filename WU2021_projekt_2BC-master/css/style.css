@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.Bild1 {
+    width: 100%;
+    
+}
+.Bild2 {
+    width: 100%;
+}
+.Bild3 {
+    width: 100%;
+}
+.Bild4 {
+    width: 100%;
+}
+.Bild5 {
+    width: 100%;
+}
+@media only screen and(min-width: 375px) and (max-width:599px) {
+    .Bild1, .Bild2, .Bild3, .Bild4, .Bild5 {
+        width: 100%;
+    }
+}
+@media only screen and(min-width: 600px) {
+.Bild1 , .Bild3 , .Bild5 {
+    width: 50%;
+    float: left;
+}
+.Bild2, .Bild4 {
+    width: 50%;
+    float: right
+}
+}
